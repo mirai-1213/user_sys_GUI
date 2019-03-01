@@ -19,8 +19,6 @@ def old_user_window():
     msg = "请输入您的用户名"
     title = "用户登录"
     user = gui.multpasswordbox(msg,title,("用户名","密码"))
-    print(user)
-    print(type(user))
     return user
 
 
